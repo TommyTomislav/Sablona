@@ -1,0 +1,8 @@
+language: java
+os:
+  - linux
+before_install:
+  - sudo apt-get install ant-optional
+script:
+  - ant compile
+  - ant test
